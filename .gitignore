@@ -1,0 +1,47 @@
+# Ignore CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+
+# Ignore build output directories
+out/
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.user
+*.suo
+*.ncb
+*.aps
+*.pdb
+*.ipch
+*.log
+
+# Ignore Visual Studio temporary files
+.vs/
+*.obj
+*.exe
+*.dll
+*.lib
+*.manifest
+*.pdb
+*.ilk
+*.idb
+*.ipdb
+*.tlog
+*.lastbuildstate
+
+# Ignore user-specific files
+*.userprefs
+*.vspx
+
+# Ignore other temporary files
+*.tmp
+*.temp
+*.bak
+
+# Ignore any additional files that shouldn't be tracked
+*.DS_Store
+*.swp
+*.swo
