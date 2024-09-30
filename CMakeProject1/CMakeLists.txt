@@ -30,9 +30,3 @@ if (Boost_FOUND)
 else()
     message(FATAL_ERROR "Boost not found. Please ensure Boost is installed and the BOOST_ROOT path is set correctly.")
 endif()
-
-
-
-
-
-
